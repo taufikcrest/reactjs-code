@@ -1,0 +1,38 @@
+{
+  "name": "reapop-theme-timewise",
+  "version": "1.0.0",
+  "description": "Custom theme for Notification (Timewise)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass src/styles/styles.scss -o lib",
+    "prepublish": "npm run build",
+    "sass": "sass --watch src/styles/styles.scss:lib/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "reapop",
+    "theme",
+    "react",
+    "redux",
+    "notifications",
+    "notification",
+    "component"
+  ],
+  "author": "Mukesh Tivari",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "peerDependencies": {
+    "font-awesome": "^4.6.1",
+    "reapop": ">=0.6.0"
+  },
+  "devDependencies": {
+    "node-sass": "^3.10.0"
+  }
+}
